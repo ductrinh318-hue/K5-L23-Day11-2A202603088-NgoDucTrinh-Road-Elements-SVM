@@ -1,0 +1,50 @@
+{
+  "schema": "road-delivery/1",
+  "guideline": "Road v1.0",
+  "format": "CVAT for images 1.1",
+  "student": "ngoductrinh",
+  "revision": 2,
+  "created_at": "2026-11-21T17:43:07.612653+00:00",
+  "deliverables": {
+    "front": {
+      "file": "ngoductrinh-front.zip",
+      "size_bytes": 99572,
+      "sha256": "d9d95bdcd1d9b03c6d43496021f66b5287a849a6b62cdb7fc40b48598db41139",
+      "contains_images": false,
+      "image_count": 16,
+      "shape_counts": {
+        "lane": 52,
+        "road_curb": 16,
+        "crosswalk": 13,
+        "drivable": 37,
+        "traffic_light": 61,
+        "traffic_sign": 83
+      },
+      "lint_warnings": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      }
+    },
+    "fisheye": {
+      "file": "ngoductrinh-fisheye.zip",
+      "size_bytes": 45382,
+      "sha256": "37736b1dd6cc1b0d9cc72ec775287deee1f024064a3d2c4dd9f242e6e3e5eab0",
+      "contains_images": false,
+      "image_count": 12,
+      "shape_counts": {
+        "lane": 14,
+        "road_curb": 12,
+        "crosswalk": 10,
+        "drivable": 14,
+        "traffic_light": 13,
+        "traffic_sign": 16
+      },
+      "lint_warnings": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      }
+    }
+  }
+}
